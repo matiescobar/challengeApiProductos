@@ -25,6 +25,8 @@ public class ArticlesController {
     @ResponseBody
     public List<ProductoDTO> getProducts(RequestDTO requestDTO){
 
+
+
         return productoService.getProductsList(requestDTO);
     }
 
