@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface ProductoService {
 
-    List<ProductoDTO> getProductosList(RequestDTO requestDTO);
+    List<ProductoDTO> getProductsList(RequestDTO requestDTO);
     List<ProductoDTO> getProductsByProductId(RequestPurchaseDTO requestDTO);
     void updateDB(List<ArticlesDTO> request);
 

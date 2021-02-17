@@ -24,7 +24,7 @@ public class ProductoServiceImpl implements ProductoService{
         this.productoDAO = productoDAO;
     }
 
-    public List<ProductoDTO> getProductosList(RequestDTO requestDTO){
+    public List<ProductoDTO> getProductsList(RequestDTO requestDTO){
 
         List<ProductoDTO> dB = productoDAO.getDB();
         List<ProductoDTO> response = new ArrayList<>();
@@ -33,7 +33,7 @@ public class ProductoServiceImpl implements ProductoService{
         ObjectMapper objectMapper = new ObjectMapper();
         response = objectMapper.convertValue(dB, typeReference);
 
-        if(isValidRequest(requestDTO)) {
+        if(requestDTO.isValidRequest()) {
             if(requestDTO.getCategory() != null) {
                 response = ProductosUtils.getProductosByCategory(response, requestDTO.getCategory());
             }
@@ -71,8 +71,5 @@ public class ProductoServiceImpl implements ProductoService{
         productoDAO.updateDB(request);
     }
 
-    private boolean isValidRequest(RequestDTO requestDTO){
-        return requestDTO.getOrder() != null || requestDTO.getFilter() != null || requestDTO.getCategory() != null;
-    }
 
 }

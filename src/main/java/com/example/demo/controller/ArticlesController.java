@@ -23,9 +23,9 @@ public class ArticlesController {
 
     @GetMapping("/articles")
     @ResponseBody
-    public List<ProductoDTO> getProductosListByCategory(RequestDTO requestDTO){
+    public List<ProductoDTO> getProductsList(RequestDTO requestDTO){
 
-        return productoService.getProductosList(requestDTO);
+        return productoService.getProductsList(requestDTO);
     }
 
     @GetMapping("/articlesByProductId")

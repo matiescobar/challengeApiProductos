@@ -32,4 +32,8 @@ public class RequestDTO {
         this.order = order;
     }
 
+    public boolean isValidRequest(){
+        return this.getOrder() != null || this.getFilter() != null || this.getCategory() != null;
+    }
+
 }
