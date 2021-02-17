@@ -23,7 +23,7 @@ public class ArticlesController {
 
     @GetMapping("/articles")
     @ResponseBody
-    public List<ProductoDTO> getProductsList(RequestDTO requestDTO){
+    public List<ProductoDTO> getProducts(RequestDTO requestDTO){
 
         return productoService.getProductsList(requestDTO);
     }
