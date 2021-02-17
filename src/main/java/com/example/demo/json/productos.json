@@ -1,0 +1,122 @@
+[
+{
+    "nombre" : "Desmalezadora",
+    "productId" : "1",
+    "categoria" : "Herramientas",
+    "marca" : "Makita",
+    "precio" : "$9.600",
+    "cantidad" : "5",
+    "envioGratis" : "SI",
+    "prestigio" : "****"
+  },
+  {
+    "nombre" : "Taladro",
+    "productId" : "2",
+    "categoria" : "Herramientas",
+    "marca" : "Black & Decker",
+    "precio" : "$12.500",
+    "cantidad" : "7",
+    "envioGratis" : "SI",
+    "prestigio" : "****"
+  },
+  {
+    "nombre" : "Soldadora",
+    "productId" : "3",
+    "categoria" : "Herramientas",
+    "marca" : "Black & Decker",
+    "precio" : "$7.215",
+    "cantidad" : "10",
+    "envioGratis" : "SI",
+    "prestigio" : "***"
+  },
+  {
+    "nombre" : "Zapatillas Deportivas",
+    "productId" : "4",
+    "categoria" : "Deportes",
+    "marca" : "Nike",
+    "precio" : "$14.000",
+    "cantidad" : "4",
+    "envioGratis" : "SI",
+    "prestigio" : "*****"
+  },
+  {
+    "nombre" : "Zapatillas Deportivas",
+    "productId" : "5",
+    "categoria" : "Deportes",
+    "marca" : "Adidas",
+    "precio" : "$13.650",
+    "cantidad" : "6",
+    "envioGratis" : "SI",
+    "prestigio" : "*****"
+  },
+  {
+    "nombre" : "Camiseta",
+    "productId" : "6",
+    "categoria" : "Deportes",
+    "marca" : "Topper",
+    "precio" : "$2.300",
+    "cantidad" : "2",
+    "envioGratis" : "NO",
+    "prestigio" : "***"
+  },
+  {
+    "nombre" : "Redmi Note 9",
+    "productId" : "7",
+    "categoria" : "Celulares",
+    "marca" : "Xiaomi",
+    "precio" : "$40.000",
+    "cantidad" : "15",
+    "envioGratis" : "SI",
+    "prestigio" : "****"
+  },
+  {
+    "nombre" : "Smartwatch",
+    "productId" : "8",
+    "categoria" : "Celulares",
+    "marca" : "Noga",
+    "precio" : "$1.900",
+    "cantidad" : "20",
+    "envioGratis" : "NO",
+    "prestigio" : "**"
+  },
+  {
+    "nombre" : "Remera",
+    "productId" : "9",
+    "categoria" : "Indumentaria",
+    "marca" : "Taverniti",
+    "precio" : "$2.300",
+    "cantidad" : "2",
+    "envioGratis" : "NO",
+    "prestigio" : "***"
+  },
+  {
+    "nombre" : "Chomba",
+    "productId" : "10",
+    "categoria" : "Indumentaria",
+    "marca" : "Taverniti",
+    "precio" : "$2.400",
+    "cantidad" : "6",
+    "envioGratis" : "NO",
+    "prestigio" : "***"
+  },
+  {
+    "nombre" : "Medias",
+    "productId" : "11",
+    "categoria" : "Indumentaria",
+    "marca" : "Mistral",
+    "precio" : "$500",
+    "cantidad" : "8",
+    "envioGratis" : "NO",
+    "prestigio" : "*"
+  },
+  {
+    "nombre" : "Short",
+    "productId" : "12",
+    "categoria" : "Indumentaria",
+    "marca" : "Lacoste",
+    "precio" : "$3.900",
+    "cantidad" : "9",
+    "envioGratis" : "SI",
+    "prestigio" : "***"
+  }
+]
